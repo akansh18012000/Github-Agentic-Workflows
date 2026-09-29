@@ -14,6 +14,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     base-branch: main
@@ -29,6 +30,7 @@ Fetch and review both official sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Update `site/content/github-info.md` with concise, practical GitHub guidance that fits Mona's editorial angle. Prioritize useful updates for developers, preserve relevant existing material, and avoid duplicating content already on the page. Clearly cite the GitHub Blog or Changelog source for every new announcement or claim. Do not add unsupported claims or unrelated content.
 
